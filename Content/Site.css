@@ -1,0 +1,81 @@
+﻿/*Created by Guy Gufada for CodeValue*/
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 60px;
+	padding:20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.buttons_panel{
+    border: 1px solid;
+	float: left;
+    background-color: lightgrey;
+    width: 100%;	
+}
+.title{
+    border: 1px solid;
+	float: left;
+    background-color: lightgrey;
+    width: 100%;	
+}
+
+.product {
+    border: 1px solid;
+	float: left;
+    background-color: lightgrey;
+    width: 70%;
+	padding:20px;
+}
+
+.product_details {
+    float: right;
+    background-color: lightgrey;
+    width: 40%;
+	margin: 60px;
+	padding:20px;
+	border: 1px solid;
+}
+
+#product_List{
+	  float: left;
+ width: 40%;
+ margin: 60px;
+}
+
+.selected_image {
+    width: 50px;
+    border: 1px solid;
+}
+
+.product_details_buttons {
+    float: right;
+}
+
+#product_details {
+    border-color: black;
+    border-style: groove;
+    border-width: 5px;
+	padding:20px;
+	border: 1px solid;
+}
+
+#main_content {	
+	  margin: 60px;
+}
+

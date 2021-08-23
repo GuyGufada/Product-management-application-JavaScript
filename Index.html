@@ -1,0 +1,50 @@
+<!--Created by Guy Gufada for CodeValue-->
+
+<html> 
+
+
+<head> 
+<link rel="stylesheet" href="Content\Site.css">
+<script type="text/javascript" src="Scripts\my_store.js"></script>
+
+</head>
+<body onload="onloadFunction()">
+    <div class="title">
+    <h1> Guy - My Store</h1>
+
+    </div>
+<br />
+    <div class="buttons_panel">
+        <input type="button" id="AddProduct" name="AddProduct" value="+Add" onclick="AddProduct();">
+        <input type="text" id="SearchProducts" name="SearchProducts" placeholder="Search products" />
+    </div>
+    <br />
+	
+	
+	
+	
+<div id="main_content" >
+
+	<div id="product_List"> 
+	</div>
+	
+		
+    <div class="product_details">
+        <label id="product_detail"></label> <br />
+        <img src="images\product.jpg" class="selected_image" /> <br />
+		<input type="hidden" id="product_id" / disabled="true"> <br />
+        Product name <br />
+        <input type="text" id="product_name" /> <br />
+        Product Description <br />
+        <input type="text" id="product_Description" /> <br />
+        Price <br />
+        <input type="text" id="Price" /> <br />
+
+        <input type="button" class="product_details_buttons" id="SaveChanges" value="Save" onclick="SaveChanges(); ">
+        <!--<input type="button" class="product_details_buttons" id="AddNewProduct" value="Add" onclick="AddNewProduct();">-->
+    </div>
+
+</div>
+
+
+</html>
